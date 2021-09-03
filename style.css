@@ -62,8 +62,6 @@ main {
     align-self: center;
 }
 
-
-}
 /* header, footer {
     display: flex;
     background-color: #3c4c64;
@@ -76,29 +74,16 @@ main {
     border:1px solid black;
 } */
 .secao-vida {
-    height: 90vh;
-    /* width: 100vw; */
-
+    max-height: 90vh;
     background-color: #FDFFFF;
-    padding: 75px 50px;
+    padding: 85px 50px;
     color: #A7D97F;
 }
 .secao-auto {
-    height: 90vh;
+    max-height: 90vh;
     background-color: #233858;
-    padding: 75px 50px;
+    padding: 85px 50px;
     color: #A7D97F;
-
-    background-color: white;
-    padding: 50px;
-    color: #8FC36D;
-}
-.secao-auto {
-    height: 90vh;
-    background-color: #3c4c64;
-    padding: 50px;
-    color: #8FC36D;
-
 }
 .disposicao-produtos {
     display: grid;
@@ -142,28 +127,19 @@ main {
     font-size: 20px;
 }
 #botao-contrate-agora {
-    background-color: rgb(13, 59, 59);
-
-    background-color: #D2DAD8;
-
-    font-size: 25px bold;
+    background-color: #A7D97F;
+    font-size: 22px;
     height: 3em;
     border-radius: 150px;
     font-weight: bold;
     text-align: center;
     text-decoration:none;
-
     color: white;
     display: grid;
-    align-content: center;
-    padding: 10px;
     border: 1px solid white;
-
-    color: black;
     display: grid;
     align-content: center;
     padding: 10px;
-
 }
 #seguros-compactados {
     max-width: 85%;
