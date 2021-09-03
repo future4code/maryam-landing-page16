@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,39 +10,58 @@ body {
 
 main {
     border: 1px solid black;
-    width: 100vw;
+    width: 100%;
 }
 
 .introducao {
-    
+    border: 1px solid green;
 }
 
 .imagem-intro {
-    width: 100%;
-    transform: scaleX(-1);
+    border: 1px solid pink;
+    object-fit: cover;
+    width:100%;
 }
-
 
 .chamada-na-imagem { 
     position: absolute; 
-    top: 13rem; 
-    left: 3rem; 
-    color: white;
-    text-shadow: black 1px 1px 30px;
+    top: 26rem; 
+    left: 5rem; 
+    color: #A7D97F;
+    font-size: 36px;
+    text-shadow: #233858 5px;
 }
 
 .texto-na-imagem{
     position: absolute;
-    top: 18rem;
-    left: 3rem;
+    top: 31.5rem;
+    left: 5rem;
+    font-size: 16px;
+    color: white;
 }
 
+.botão-safe {
+    position: absolute; 
+    top: 34.5rem; 
+    left: 5rem; 
+    padding: 0.5em;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.link-botao-safe {
+    text-decoration: none;
+    color: black;
+}
 
 .vantagens {
+    height: 40vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30vh;
+    border: 1px solid black;
+    background-color: #FDFFFF;
 }
 
 .icone-vantagens {
@@ -55,10 +75,9 @@ main {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    align-self: center;
 }
 
-}
+
 /* header, footer {
     display: flex;
     background-color: #3c4c64;
@@ -70,6 +89,7 @@ main {
     position: fixed;
     border:1px solid black;
 } */
+
 .secao-vida {
     height: 90vh;
     /* width: 100vw; */
