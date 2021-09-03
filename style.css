@@ -16,15 +16,15 @@
 .secao-vida {
     height: 90vh;
     /* width: 100vw; */
-    background-color: white;
-    padding: 50px;
-    color: #8FC36D;
+    background-color: #FDFFFF;
+    padding: 75px 50px;
+    color: #A7D97F;
 }
 .secao-auto {
     height: 90vh;
-    background-color: #3c4c64;
-    padding: 50px;
-    color: #8FC36D;
+    background-color: #233858;
+    padding: 75px 50px;
+    color: #A7D97F;
 }
 .disposicao-produtos {
     display: grid;
@@ -68,17 +68,18 @@
     font-size: 20px;
 }
 #botao-contrate-agora {
-    background-color: #D2DAD8;
+    background-color: rgb(13, 59, 59);
     font-size: 25px bold;
     height: 3em;
     border-radius: 150px;
     font-weight: bold;
     text-align: center;
     text-decoration:none;
-    color: black;
+    color: white;
     display: grid;
     align-content: center;
     padding: 10px;
+    border: 1px solid white;
 }
 #seguros-compactados {
     max-width: 85%;
