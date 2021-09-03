@@ -1,6 +1,68 @@
 * {
+
     padding: 0;
     margin: 0;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border: 1px solid black;
+    width: 100vw;
+}
+
+.introducao {
+    
+}
+
+.imagem-intro {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+
+.chamada-na-imagem { 
+    position: absolute; 
+    top: 13rem; 
+    left: 3rem; 
+    color: white;
+    text-shadow: black 1px 1px 30px;
+}
+
+.texto-na-imagem{
+    position: absolute;
+    top: 18rem;
+    left: 3rem;
+}
+
+
+.vantagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+}
+
+.icone-vantagens {
+    width: 80px;
+}
+
+.seguro-seu-jeito {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+
 }
 /* header, footer {
     display: flex;
@@ -16,6 +78,7 @@
 .secao-vida {
     height: 90vh;
     /* width: 100vw; */
+
     background-color: #FDFFFF;
     padding: 75px 50px;
     color: #A7D97F;
@@ -25,6 +88,17 @@
     background-color: #233858;
     padding: 75px 50px;
     color: #A7D97F;
+
+    background-color: white;
+    padding: 50px;
+    color: #8FC36D;
+}
+.secao-auto {
+    height: 90vh;
+    background-color: #3c4c64;
+    padding: 50px;
+    color: #8FC36D;
+
 }
 .disposicao-produtos {
     display: grid;
@@ -69,17 +143,27 @@
 }
 #botao-contrate-agora {
     background-color: rgb(13, 59, 59);
+
+    background-color: #D2DAD8;
+
     font-size: 25px bold;
     height: 3em;
     border-radius: 150px;
     font-weight: bold;
     text-align: center;
     text-decoration:none;
+
     color: white;
     display: grid;
     align-content: center;
     padding: 10px;
     border: 1px solid white;
+
+    color: black;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+
 }
 #seguros-compactados {
     max-width: 85%;
